@@ -1,0 +1,6 @@
+{
+  "12345": {"status": "in_transit", "eta_days": 2, "carrier": "ShoplyExpress"},
+  "98765": {"status": "delivered", "delivered_at": "2025-08-10"},
+  "55555": {"status": "processing", "note": "Ожидает комплектации на складе"},
+  "1": {"status": "Выполнен", "note": "Бонус - сертификат на 1000 рублей"}
+}
