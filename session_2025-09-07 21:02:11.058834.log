@@ -1,0 +1,30 @@
+2025-09-07 21:02:11 [INFO] === New session ===
+2025-09-07 21:02:27 [INFO] User: можно узнать информацию о заказе
+2025-09-07 21:02:27 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 21:02:27 [INFO] Bot: Введите ID заказа, чтобы узнать информацию.
+2025-09-07 21:02:27 [INFO] Usage (prompt/completion/total ): 553/10/563
+2025-09-07 21:02:31 [INFO] User: 1
+2025-09-07 21:02:32 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 21:02:32 [INFO] Bot: Заказ 1 выполнен. Бонус — сертификат на 1000 рублей.
+2025-09-07 21:02:32 [INFO] Usage (prompt/completion/total ): 570/24/594
+2025-09-07 21:02:38 [INFO] User: 2
+2025-09-07 21:02:38 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 21:02:38 [INFO] Bot: Такого заказа нет.
+2025-09-07 21:02:38 [INFO] Usage (prompt/completion/total ): 600/8/608
+2025-09-07 21:02:48 [INFO] User: а в каком заказе было бонус?
+2025-09-07 21:02:48 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 21:02:48 [INFO] Bot: В заказе 1 было бонус — сертификат на 1000 рублей.
+2025-09-07 21:02:48 [INFO] Usage (prompt/completion/total ): 619/21/640
+2025-09-07 21:03:06 [INFO] User: какие заказы доставлены?
+2025-09-07 21:03:06 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 21:03:06 [INFO] Bot: Заказ 98765 доставлен 10 августа 2025 года.
+2025-09-07 21:03:06 [INFO] Usage (prompt/completion/total ): 651/24/675
+2025-09-07 21:03:20 [INFO] User: можно ли сделать доставку за 3 дня
+2025-09-07 21:03:21 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 21:03:21 [INFO] Bot: Нет, доставка за 3 дня не предусмотрена. Стандартная доставка — 2–5 рабочих дней, экспресс — в течение 24–48 часов.
+2025-09-07 21:03:21 [INFO] Usage (prompt/completion/total ): 689/47/736
+2025-09-07 21:03:36 [INFO] User: у меня есть криптовалюта. хочу оплатить
+2025-09-07 21:03:37 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 21:03:37 [INFO] Bot: У нас нет возможности оплаты криптовалютой. Доступны только Visa/Mastercard, СБП и подарочные сертификаты Shoply.
+2025-09-07 21:03:37 [INFO] Usage (prompt/completion/total ): 756/40/796
+2025-09-07 21:03:42 [INFO] User: выход

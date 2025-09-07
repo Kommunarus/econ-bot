@@ -1,0 +1,22 @@
+2025-09-07 21:04:58 [INFO] === New session ===
+2025-09-07 21:05:07 [INFO] User: /щквук 2
+2025-09-07 21:05:08 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 21:05:08 [INFO] Bot: Такого заказа нет.
+2025-09-07 21:05:08 [INFO] Usage (prompt/completion/total ): 554/8/562
+2025-09-07 21:05:15 [INFO] User: /order 1
+2025-09-07 21:05:15 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 21:05:15 [INFO] Bot: Заказ выполнен. Бонус — сертификат на 1000 рублей.
+2025-09-07 21:05:15 [INFO] Usage (prompt/completion/total ): 569/22/591
+2025-09-07 21:05:37 [INFO] User: /order 12345
+2025-09-07 21:05:38 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 21:05:38 [INFO] Bot: Заказ в пути. Доставка через 2 дня. Курьер — ShoplyExpress.
+2025-09-07 21:05:38 [INFO] Usage (prompt/completion/total ): 603/24/627
+2025-09-07 21:05:43 [INFO] User: 12345
+2025-09-07 21:05:43 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 21:05:43 [INFO] Bot: Заказ в пути. Доставка через 2 дня. Курьер — ShoplyExpress.
+2025-09-07 21:05:43 [INFO] Usage (prompt/completion/total ): 637/24/661
+2025-09-07 21:05:55 [INFO] User: /order 1245
+2025-09-07 21:05:55 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 21:05:55 [INFO] Bot: Такого заказа нет.
+2025-09-07 21:05:55 [INFO] Usage (prompt/completion/total ): 672/8/680
+2025-09-07 21:06:02 [INFO] User: выход

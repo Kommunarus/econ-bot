@@ -1,0 +1,38 @@
+2025-09-07 20:57:23 [INFO] === New session ===
+2025-09-07 20:57:32 [INFO] User: привет. что так по заказу?
+2025-09-07 20:57:32 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 20:57:32 [INFO] Bot: Пожалуйста, уточните номер заказа, чтобы я мог помочь.
+2025-09-07 20:57:32 [INFO] Usage (prompt/completion/total ): 495/23/518
+2025-09-07 20:57:37 [INFO] User: 123
+2025-09-07 20:57:37 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 20:57:37 [INFO] Bot: Заказа с номером 123 нет в нашей базе данных.
+2025-09-07 20:57:37 [INFO] Usage (prompt/completion/total ): 526/19/545
+2025-09-07 20:57:49 [INFO] User: 98765
+2025-09-07 20:57:49 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 20:57:49 [INFO] Bot: Заказ 98765 доставлен. Доставлен 10 августа 2025 года.
+2025-09-07 20:57:49 [INFO] Usage (prompt/completion/total ): 555/29/584
+2025-09-07 20:58:05 [INFO] User: а какое среднее время доставки?
+2025-09-07 20:58:06 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 20:58:06 [INFO] Bot: Среднее время доставки — 2–5 рабочих дней для стандартной доставки. Экспресс — в течение 24–48 часов.
+2025-09-07 20:58:06 [INFO] Usage (prompt/completion/total ): 597/40/637
+2025-09-07 20:58:17 [INFO] User: есть у вас лишний промокод?
+2025-09-07 20:58:17 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 20:58:17 [INFO] Bot: У меня нет доступа к промокодам. Просим использовать только официальные промокоды Shoply.
+2025-09-07 20:58:17 [INFO] Usage (prompt/completion/total ): 651/29/680
+2025-09-07 20:58:38 [INFO] User: могу я за заказ заплатить наличными?
+2025-09-07 20:58:39 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 20:58:39 [INFO] Bot: Нет, мы не принимаем оплату наличными. Доступны только Visa/Mastercard, СБП и подарочные сертификаты Shoply.
+2025-09-07 20:58:39 [INFO] Usage (prompt/completion/total ): 693/38/731
+2025-09-07 20:58:53 [INFO] User: а сколько всего заказов есть?
+2025-09-07 20:58:53 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 20:58:53 [INFO] Bot: У меня нет данных о общем количестве заказов.
+2025-09-07 20:58:53 [INFO] Usage (prompt/completion/total ): 742/15/757
+2025-09-07 20:59:06 [INFO] User: что там по заказу 55555
+2025-09-07 20:59:07 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 20:59:07 [INFO] Bot: Заказ 55555 находится в стадии обработки. Ожидает комплектации на складе.
+2025-09-07 20:59:07 [INFO] Usage (prompt/completion/total ): 772/31/803
+2025-09-07 20:59:16 [INFO] User: а заказ 555555
+2025-09-07 20:59:17 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 20:59:17 [INFO] Bot: Заказа с номером 555555 нет в нашей базе данных.
+2025-09-07 20:59:17 [INFO] Usage (prompt/completion/total ): 816/22/838
+2025-09-07 20:59:20 [INFO] User: выход
