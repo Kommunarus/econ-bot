@@ -73,11 +73,19 @@ def read_file(path: str) -> str:
     """Возвращает содержимое текстового файла.
     На входе - имя файла. Файл ищется в папке docs.
     Пример: path='test.txt'"""
-    with open(os.path.join('./docs', path), 'r') as f:
+    allowed_extensions = {'.txt', '.md', '.csv'}
+    _, ext = os.path.splitext(path)
+    if ext.lower() not in allowed_extensions:
+        return f"Файл с расширением {ext} не поддерживается."
+    full_path = os.path.join('./docs', path)
+    if not os.path.exists(full_path):
+        return f"Файл '{path}' не найден."
+
+    with open(full_path, 'r', encoding='utf-8') as f:
         try:
             text = f.read()
         except Exception as e:
-            text = e
+            text = f"Ошибка при чтении файла: {e}"
 
     return text
 
