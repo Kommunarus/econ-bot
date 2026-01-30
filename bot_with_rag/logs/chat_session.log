@@ -1,0 +1,134 @@
+2026-01-29 23:56:59 [INFO] Retrying request to /chat/completions in 0.490226 seconds
+2026-01-29 23:57:00 [INFO] Retrying request to /chat/completions in 0.820995 seconds
+2026-01-30 00:00:35 [INFO] Retrying request to /chat/completions in 0.404582 seconds
+2026-01-30 00:00:35 [INFO] Retrying request to /chat/completions in 0.838227 seconds
+2026-01-30 00:03:45 [INFO] Retrying request to /chat/completions in 0.432955 seconds
+2026-01-30 00:03:46 [INFO] Retrying request to /chat/completions in 0.942450 seconds
+2026-01-30 00:05:02 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 00:06:00 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 00:10:29 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 00:10:47 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 00:11:12 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 09:34:15 [INFO] Retrying request to /chat/completions in 0.481571 seconds
+2026-01-30 09:34:16 [INFO] Retrying request to /chat/completions in 0.837290 seconds
+2026-01-30 09:35:22 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 09:35:35 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 09:41:18 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 09:41:24 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 09:41:35 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 09:41:51 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 09:53:55 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 09:54:11 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 09:54:25 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 09:54:51 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 09:55:33 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 10:16:05 [INFO] Use pytorch device_name: cuda:0
+2026-01-30 10:16:05 [INFO] Load pretrained SentenceTransformer: intfloat/multilingual-e5-large
+2026-01-30 10:16:10 [INFO] Loading faiss with AVX2 support.
+2026-01-30 10:16:10 [INFO] Successfully loaded faiss with AVX2 support.
+2026-01-30 10:16:13 [INFO] Use pytorch device: cuda:0
+2026-01-30 10:16:14 [INFO] === New session ===
+2026-01-30 10:16:35 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 10:25:52 [INFO] Use pytorch device_name: cuda:0
+2026-01-30 10:25:52 [INFO] Load pretrained SentenceTransformer: intfloat/multilingual-e5-large
+2026-01-30 10:25:57 [INFO] Loading faiss with AVX2 support.
+2026-01-30 10:25:57 [INFO] Successfully loaded faiss with AVX2 support.
+2026-01-30 10:25:59 [INFO] Use pytorch device: cuda:0
+2026-01-30 10:26:01 [INFO] === New session ===
+2026-01-30 10:26:09 [ERROR] Error: Invalid input type <class 'dict'>. Must be a PromptValue, str, or list of BaseMessages.
+2026-01-30 12:11:33 [INFO] Use pytorch device_name: cuda:0
+2026-01-30 12:11:33 [INFO] Load pretrained SentenceTransformer: intfloat/multilingual-e5-large
+2026-01-30 12:11:39 [INFO] Loading faiss with AVX2 support.
+2026-01-30 12:11:39 [INFO] Successfully loaded faiss with AVX2 support.
+2026-01-30 12:11:41 [INFO] Use pytorch device: cuda:0
+2026-01-30 12:11:42 [INFO] === New session ===
+2026-01-30 12:12:39 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 12:12:39 [INFO] Bot: Привет! К сожалению, у меня нет информации по запросу.
+2026-01-30 12:12:58 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 12:12:58 [INFO] Bot: Я не располагаю информацией о дате рождения Омара Хайяма в данном контексте, поэтому не могу ответить на ваш вопрос.
+2026-01-30 12:17:09 [INFO] Use pytorch device_name: cuda:0
+2026-01-30 12:17:09 [INFO] Load pretrained SentenceTransformer: intfloat/multilingual-e5-large
+2026-01-30 12:17:13 [INFO] Loading faiss with AVX2 support.
+2026-01-30 12:17:13 [INFO] Successfully loaded faiss with AVX2 support.
+2026-01-30 12:17:15 [INFO] Use pytorch device: cuda:0
+2026-01-30 12:17:16 [INFO] === New session ===
+2026-01-30 12:17:58 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 12:17:58 [INFO] Bot: Привет, Крот! Как я могу помочь?
+2026-01-30 12:20:51 [INFO] Use pytorch device_name: cuda:0
+2026-01-30 12:20:51 [INFO] Load pretrained SentenceTransformer: intfloat/multilingual-e5-large
+2026-01-30 12:20:56 [INFO] Loading faiss with AVX2 support.
+2026-01-30 12:20:56 [INFO] Successfully loaded faiss with AVX2 support.
+2026-01-30 12:20:58 [INFO] Use pytorch device: cuda:0
+2026-01-30 12:20:59 [INFO] === New session ===
+2026-01-30 12:21:26 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 12:21:26 [INFO] Bot: Привет, Крот! Как я могу помочь?
+2026-01-30 12:21:33 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 12:21:33 [INFO] Bot: Омар Хайям, по наиболее признанному в современной научной литературе источнику, родился **18 мая 1048 года**.
+2026-01-30 12:24:31 [INFO] Use pytorch device_name: cuda:0
+2026-01-30 12:24:31 [INFO] Load pretrained SentenceTransformer: intfloat/multilingual-e5-large
+2026-01-30 12:24:37 [INFO] Loading faiss with AVX2 support.
+2026-01-30 12:24:37 [INFO] Successfully loaded faiss with AVX2 support.
+2026-01-30 12:24:39 [INFO] Use pytorch device: cuda:0
+2026-01-30 12:24:40 [INFO] === New session ===
+2026-01-30 12:24:46 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 12:24:46 [INFO] Bot: Привет, Крот! Как я могу помочь?
+2026-01-30 12:24:55 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 12:24:55 [INFO] Bot: Омар Хайям, согласно сохранившемуся в пересказе тексту‑гороскопу и вычислениям индийского ученого Свами Говинда Тиртхи, родился **18 мая 1048 года**.
+2026-01-30 12:25:05 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 12:25:05 [INFO] Bot: Он знаменит прежде всего как поэт‑мудрец, автор знаменитых **рубая** (четверостиший), в которых он размышляет о жизни, судьбе и человеческих страданиях. Кроме того, Хайям был выдающимся математиком и астрономом: он разработал методы решения кубических уравнений, создал таблицы для расчёта солнечных и лунных циклов, а также внес значительный вклад в геометрические исследования.
+2026-01-30 12:27:07 [INFO] Use pytorch device_name: cuda:0
+2026-01-30 12:27:07 [INFO] Load pretrained SentenceTransformer: intfloat/multilingual-e5-large
+2026-01-30 12:27:11 [INFO] Loading faiss with AVX2 support.
+2026-01-30 12:27:11 [INFO] Successfully loaded faiss with AVX2 support.
+2026-01-30 12:27:13 [INFO] Use pytorch device: cuda:0
+2026-01-30 12:27:14 [INFO] === New session ===
+2026-01-30 12:27:19 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 12:27:19 [INFO] Bot: Привет, Крот! Как я могу помочь?
+2026-01-30 12:27:25 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 12:27:25 [INFO] Bot: Омар Хайям родился **18 мая 1048 года**.
+2026-01-30 12:27:34 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 12:27:34 [INFO] Bot: Омар Хайям известен прежде всего как поэт‑шестнадцатый рубаи (четверостишия), но также он был выдающимся математиком и астрономом: разработал таблицы календарей, работал над теорией многоугольников и геометрии.
+2026-01-30 12:27:53 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 12:27:53 [INFO] Bot: На то и сердце:  
+Жизнь без суеты постичь,  
+И в тишине откликнуть —  
+Смысл, что скрыт за мгновеньем,  
+Внутри нас, как светлый огонь.
+2026-01-30 12:28:10 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 12:28:10 [INFO] Bot: Я не могу подтвердить или опровергнуть это без конкретного контекста. Если у вас есть более подробная информация, пожалуйста, поделитесь ею.
+2026-01-30 12:28:24 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 12:28:24 [INFO] Bot: На то и сердце:  
+Жизнь без суеты постичь,  
+
+И в тишине откликнуть —  
+Смысл, что скрыт за мгновеньем,  
+Внутри нас, как светлый огонь.
+
+Но не спеши, не гонись,  
+Пусть время будет твоим другом.  
+Тот путь, где нет суетных волн,  
+Откроет тайны вечного блага.
+2026-01-30 12:30:23 [INFO] Use pytorch device_name: cuda:0
+2026-01-30 12:30:23 [INFO] Load pretrained SentenceTransformer: intfloat/multilingual-e5-large
+2026-01-30 12:30:27 [INFO] Loading faiss with AVX2 support.
+2026-01-30 12:30:27 [INFO] Successfully loaded faiss with AVX2 support.
+2026-01-30 12:30:29 [INFO] Use pytorch device: cuda:0
+2026-01-30 12:30:30 [INFO] === New session ===
+2026-01-30 12:30:42 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 12:30:42 [INFO] Bot: Привет, Крот! Как я могу помочь?
+2026-01-30 12:30:51 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 12:30:51 [INFO] Bot: Омар Хайям, согласно сохранившемуся в пересказе тексту‑гороскопу и вычислениям индийского ученого Свами Говинда Тиртхи, родился **18 мая 1048 года**.
+2026-01-30 12:31:03 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 12:31:03 [INFO] Bot: Привет, Крот! Омар Хайям, согласно сохранившемуся в пересказе тексту‑гороскопу и вычислениям индийского ученого Свами Говинда Тиртхи, родился **18 мая 1048 года**.
+2026-01-30 12:31:15 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 12:31:15 [INFO] Bot: Я не знаю ответа на этот вопрос.
+2026-01-30 12:31:28 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 12:31:28 [INFO] Bot: <|channel|>commentary to=repo.run code<|message|>{"cmd":["bash","-lc","python - << 'PY'\nprint('')\nPY"]}
+2026-01-30 12:31:45 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 12:31:45 [INFO] Bot: Привет, Крот!  
+
+**Рубай (или рубаи)** – это короткая поэтическая форма, состоящая из четырёх строк с рифмовкой **АБАВ** и обычно содержащая глубокий философский смысл. Омар Хайям был мастером этой формы; его рубаи часто размышляют о судьбе, времени, любви и смысле жизни.
+2026-01-30 12:32:18 [INFO] HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-30 12:32:18 [INFO] Bot: Привет, Крот!  
+
+К сожалению, в предоставленном контексте нет дальнейших строк этого рубая, поэтому я не могу продолжить его точным образом. Если у тебя есть остальные строки или более подробная информация, дай знать — тогда смогу помочь с переводом или анализом.
