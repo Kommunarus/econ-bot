@@ -1,0 +1,49 @@
+{
+    "total_calls": 13,
+    "successful_calls": 13,
+    "failed_calls": 0,
+    "input_tokens": 11533,
+    "output_tokens": 1087,
+    "total_cost_usd": 0.02528625,
+    "latencies": [
+        0.5469393730163574,
+        1.6980149745941162,
+        0.5214827060699463,
+        0.6990659236907959,
+        0.404630184173584,
+        0.4041717052459717,
+        0.3350837230682373,
+        0.3969082832336426,
+        0.33275389671325684,
+        0.40523505210876465,
+        0.3600020408630371,
+        0.34668517112731934,
+        3.6924941539764404
+    ],
+    "routing": {
+        "simple_routes": {
+            "rag_only": 2,
+            "web_search_only": 1,
+            "order_tracker_only": 1,
+            "calculator_only": 2,
+            "currency_only": 1,
+            "direct_answer": 6
+        },
+        "complex_routes": {
+            "rag_then_web": 0,
+            "rag_with_calculator": 0,
+            "rag_with_currency": 0,
+            "web_with_calculator": 0,
+            "multi_tool": 0
+        },
+        "route_sequences": [],
+        "routing_accuracy": {
+            "predicted_correct": 0,
+            "predicted_incorrect": 0,
+            "fallback_to_llm": 0
+        }
+    },
+    "tools_errors": {},
+    "tools_used": {},
+    "errors": []
+}
