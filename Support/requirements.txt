@@ -1,0 +1,17 @@
+langchain-core~=1.2.7
+python-dotenv~=1.2.1
+langchain-openai~=1.1.7
+pydantic~=2.12.5
+langchain~=1.2.7
+langgraph~=1.0.7
+requests~=2.32.5
+autogen~=0.10.5
+openai~=2.15.0
+langchain-community~=0.4.1
+langchain-text-splitters~=1.1.0
+datasets~=4.5.0
+sentence-transformers~=5.2.0
+ddgs~=9.10.0
+numpy~=2.4.1
+matplotlib~=3.10.8
+pydantic-settings~=2.12.0
