@@ -34,13 +34,13 @@ def planner(CustomMessagesState):
     is_RAG = any(word in content for word in ["документ","внутренний", "документации", "rag"])
     if sum([is_Data, is_Web, is_RAG]) == 1:
         if is_Data:
-            return {"next_node": "Data",}
+            return {"next_node": "Data", "query": content}
         elif is_Web:
             return {"next_node": "Web", "query": content}
         elif is_RAG:
             return {"next_node": "RAG", "query": content}
     else:
-        return {"next_node": "Smart_llm",}
+        return {"next_node": "Smart_llm", "query": content}
 
 
 def route_next(state):
