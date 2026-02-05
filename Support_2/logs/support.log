@@ -1,0 +1,146 @@
+{"step": "planner", "input": "привет", "output": {"route": "DEFAULT", "confidence": 0.9, "reasoning": "общий привет без указания конкретного запроса"}}
+{"step": "planner", "input": "Время работы", "output": 8.597185134887695}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 93, "output_tokens": 21, "total_tokens": 114}}
+{"step": "llm", "input": "Время работы", "output": 0.21034789085388184}
+{"step": "planner", "input": "я хочу задать тебе несколько вопросо.", "output": {"route": "DEFAULT", "confidence": 0.8, "reasoning": "User wants to ask several questions; no specific tool needed."}}
+{"step": "planner", "input": "Время работы", "output": 0.3110828399658203}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 115, "output_tokens": 37, "total_tokens": 152}}
+{"step": "llm", "input": "Время работы", "output": 0.34945011138916016}
+{"step": "planner", "input": "сколько человек работает в вашей компании", "output": {"route": "DEFAULT", "confidence": 0.8, "reasoning": "The user asks a general question about the number of employees in the company; no special tool needed."}}
+{"step": "planner", "input": "Время работы", "output": 0.36901068687438965}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 153, "output_tokens": 48, "total_tokens": 201}}
+{"step": "llm", "input": "Время работы", "output": 0.42270374298095703}
+{"step": "planner", "input": "нет нет. в мкском.", "output": {"route": "DEFAULT", "confidence": 0.8, "reasoning": "User says “нет нет. в мкском.” – unclear request, likely general question or statement."}}
+{"step": "planner", "input": "Время работы", "output": 0.35608553886413574}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 183, "output_tokens": 34, "total_tokens": 217}}
+{"step": "llm", "input": "Время работы", "output": 0.32947778701782227}
+{"step": "planner", "input": "тебе нужно посмотреть во внутренних документах", "output": {"route": "RAG", "confidence": 0.95, "reasoning": "User explicitly requests to look into internal documents."}}
+{"step": "planner", "input": "Время работы", "output": 0.2968471050262451}
+{"step": "rag", "input": "Время работы", "output": 7.255122661590576}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 837, "output_tokens": 44, "total_tokens": 881}}
+{"step": "llm", "input": "Время работы", "output": 0.4919557571411133}
+{"step": "planner", "input": "назови 4 фамилии из ваших сотрудников", "output": {"route": "DEFAULT", "confidence": 0.9, "reasoning": "The user asks for personal data about employees which is not allowed."}}
+{"step": "planner", "input": "Время работы", "output": 0.29634737968444824}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 857, "output_tokens": 34, "total_tokens": 891}}
+{"step": "llm", "input": "Время работы", "output": 0.4455540180206299}
+{"step": "planner", "input": "какие проекты вы сделали", "output": {"route": "DEFAULT", "confidence": 0.9, "reasoning": "The user asks a general question about projects; no specific keywords for other routes."}}
+{"step": "planner", "input": "Время работы", "output": 0.33722424507141113}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 888, "output_tokens": 178, "total_tokens": 1066}}
+{"step": "llm", "input": "Время работы", "output": 1.406775712966919}
+{"step": "planner", "input": "какие библиотеки у вас используются?", "output": {"route": "DEFAULT", "confidence": 0.8, "reasoning": "The user asks a general question about libraries used by the assistant; no special tool needed."}}
+{"step": "planner", "input": "Время работы", "output": 0.3551909923553467}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 1063, "output_tokens": 95, "total_tokens": 1158}}
+{"step": "llm", "input": "Время работы", "output": 0.9338393211364746}
+{"step": "planner", "input": "когда вы появились?", "output": {"route": "DEFAULT", "confidence": 0.9, "reasoning": "The user asks a general question about the assistant’s origin; no special tool needed."}}
+{"step": "planner", "input": "Время работы", "output": 0.3247218132019043}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 1155, "output_tokens": 30, "total_tokens": 1185}}
+{"step": "llm", "input": "Время работы", "output": 0.34183502197265625}
+{"step": "planner", "input": "год появления вашей компании?", "output": {"route": "RAG", "confidence": 0.9, "reasoning": "The user asks about the year of founding of our company; this is internal knowledge."}}
+{"step": "planner", "input": "Время работы", "output": 0.5960862636566162}
+{"step": "rag", "input": "Время работы", "output": 4.518693923950195}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 772, "output_tokens": 31, "total_tokens": 803}}
+{"step": "llm", "input": "Время работы", "output": 0.40055012702941895}
+{"step": "planner", "input": "когда появился первый проект на УХ? прочитай RAG, не используй кеш", "output": {"route": "RAG", "confidence": 0.9, "reasoning": "Запрос относится к внутренней информации компании – дата первого проекта на УХ."}}
+{"step": "planner", "input": "Время работы", "output": 0.32642340660095215}
+{"step": "rag", "input": "Время работы", "output": 3.6564834117889404}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 1443, "output_tokens": 168, "total_tokens": 1611}}
+{"step": "llm", "input": "Время работы", "output": 1.3994572162628174}
+{"step": "planner", "input": "приведи 5 фамилий ваших сотрудников.  прочитай RAG, не используй кеш", "output": {"route": "RAG", "confidence": 1.0, "reasoning": "Запрос относится к внутренней информации компании."}}
+{"step": "planner", "input": "Время работы", "output": 0.2763223648071289}
+{"step": "rag", "input": "Время работы", "output": 3.9931399822235107}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 2464, "output_tokens": 90, "total_tokens": 2554}}
+{"step": "llm", "input": "Время работы", "output": 0.8999745845794678}
+{"step": "planner", "input": "какие фреймерки вы используете.  прочитай RAG, не используй кеш", "output": {"route": "RAG", "confidence": 0.9, "reasoning": "User asks about internal company frameworks; falls under RAG."}}
+{"step": "planner", "input": "Время работы", "output": 0.3059689998626709}
+{"step": "rag", "input": "Время работы", "output": 4.202446222305298}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 3323, "output_tokens": 122, "total_tokens": 3445}}
+{"step": "llm", "input": "Время работы", "output": 1.1136250495910645}
+{"step": "planner", "input": "есть ли у вас писатели.  прочитай RAG, не используй кеш", "output": {"route": "RAG", "confidence": 0.9, "reasoning": "Запрос относится к внутренней информации о наличии писателей в компании."}}
+{"step": "planner", "input": "Время работы", "output": 5.062576055526733}
+{"step": "rag", "input": "Время работы", "output": 3.9168612957000732}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 4256, "output_tokens": 78, "total_tokens": 4334}}
+{"step": "llm", "input": "Время работы", "output": 1.4004344940185547}
+{"step": "planner", "input": "вы продаете 1с? по какой цене?", "output": {"route": "DEFAULT", "confidence": 0.8, "reasoning": "The user asks a general question about selling 1C software and price; no specific keywords for RAG, WEB_SEARCH, or DATA."}}
+{"step": "planner", "input": "Время работы", "output": 0.5218000411987305}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 4308, "output_tokens": 255, "total_tokens": 4563}}
+{"step": "llm", "input": "Время работы", "output": 3.06301212310791}
+{"step": "planner", "input": "найди в интернете сколько стоит playstaton 5", "output": {"route": "WEB_SEARCH", "confidence": 0.92, "reasoning": "The user asks for current price of PlayStation 5, which is up-to-date information from the web."}}
+{"step": "planner", "input": "Время работы", "output": 0.6813831329345703}
+{"step": "web", "input": "Время работы", "output": 2.2931861877441406}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 1187, "output_tokens": 149, "total_tokens": 1336}}
+{"step": "llm", "input": "Время работы", "output": 1.5992915630340576}
+{"step": "planner", "input": "найди в интернете размер москвы", "output": {"route": "WEB_SEARCH", "confidence": 0.95, "reasoning": "The user asks for current information about the size of Moscow, which is a factual query that requires up-to-date data from the internet."}}
+{"step": "planner", "input": "Время работы", "output": 0.5006530284881592}
+{"step": "web", "input": "Время работы", "output": 1.677076816558838}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 987, "output_tokens": 52, "total_tokens": 1039}}
+{"step": "llm", "input": "Время работы", "output": 0.7398724555969238}
+{"step": "planner", "input": "найди в интернете какая масса земли", "output": {"route": "WEB_SEARCH", "confidence": 0.92, "reasoning": "The user asks for current information about the mass of Earth, which is a factual question that requires up-to-date data from the internet."}}
+{"step": "planner", "input": "Время работы", "output": 0.4871385097503662}
+{"step": "web", "input": "Время работы", "output": 1.3131628036499023}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 1130, "output_tokens": 66, "total_tokens": 1196}}
+{"step": "llm", "input": "Время работы", "output": 0.8618631362915039}
+{"step": "planner", "input": "найди в интернете сколько миллионеров на земле", "output": {"route": "WEB_SEARCH", "confidence": 0.9, "reasoning": "User asks for current internet data about number of millionaires worldwide."}}
+{"step": "planner", "input": "Время работы", "output": 0.33643198013305664}
+{"step": "web", "input": "Время работы", "output": 1.4314994812011719}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 1093, "output_tokens": 236, "total_tokens": 1329}}
+{"step": "llm", "input": "Время работы", "output": 2.3389804363250732}
+{"step": "planner", "input": "найди в интернете сколько стоит золото", "output": {"route": "WEB_SEARCH", "confidence": 0.95, "reasoning": "User asks for current price of gold, which requires up-to-date internet information."}}
+{"step": "planner", "input": "Время работы", "output": 0.35546159744262695}
+{"step": "web", "input": "Время работы", "output": 5.6902031898498535}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 941, "output_tokens": 108, "total_tokens": 1049}}
+{"step": "llm", "input": "Время работы", "output": 1.1528663635253906}
+{"step": "planner", "input": "тебе доступен файл titanic.csv . посчитай число строк в нем", "output": {"route": "DATA", "confidence": 0.9, "reasoning": "User requests analysis of a CSV file."}}
+{"step": "planner", "input": "Время работы", "output": 0.5026559829711914}
+{"step": "data", "input": "Время работы", "output": 0.8191018104553223}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 124, "output_tokens": 31, "total_tokens": 155}}
+{"step": "llm", "input": "Время работы", "output": 0.3615415096282959}
+{"step": "planner", "input": "тебе доступен файл titanic.csv . сколько мужчин и женщим в нем", "output": {"route": "DATA", "confidence": 0.9, "reasoning": "User asks to analyze a CSV file (titanic.csv) and count genders."}}
+{"step": "planner", "input": "Время работы", "output": 0.3573596477508545}
+{"step": "data", "input": "Время работы", "output": 1.1186959743499756}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 132, "output_tokens": 23, "total_tokens": 155}}
+{"step": "llm", "input": "Время работы", "output": 0.26979899406433105}
+{"step": "planner", "input": "тебе доступен файл titanic.csv . назови среднюю цену проезда", "output": {"route": "DATA", "confidence": 0.8, "reasoning": "User requests analysis of a CSV file – use DATA."}}
+{"step": "planner", "input": "Время работы", "output": 0.33432531356811523}
+{"step": "data", "input": "Время работы", "output": 1.0931744575500488}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 134, "output_tokens": 40, "total_tokens": 174}}
+{"step": "llm", "input": "Время работы", "output": 0.4138462543487549}
+{"step": "planner", "input": "тебе доступен файл titanic.csv . какая максимальная и минимальная цена проезда в нем", "output": {"route": "DATA", "confidence": 0.9, "reasoning": "User asks about data analysis of a CSV file."}}
+{"step": "planner", "input": "Время работы", "output": 0.2957491874694824}
+{"step": "data", "input": "Время работы", "output": 2.857043743133545}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 145, "output_tokens": 87, "total_tokens": 232}}
+{"step": "llm", "input": "Время работы", "output": 0.807307243347168}
+{"step": "planner", "input": "тебе доступен файл titanic.csv . назови минимальную , но не нулевую сумму проезда", "output": {"route": "DATA", "confidence": 0.7, "reasoning": "User asks to analyze a CSV file Titanic and find minimal non-zero fare."}}
+{"step": "planner", "input": "Время работы", "output": 0.34941792488098145}
+{"step": "data", "input": "Время работы", "output": 4.096452713012695}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 148, "output_tokens": 42, "total_tokens": 190}}
+{"step": "llm", "input": "Время работы", "output": 0.43223094940185547}
+{"step": "planner", "input": "тебе доступен файл titanic.csv . сколько вижило человек по данным.", "output": {"route": "DATA", "confidence": 0.9, "reasoning": "User asks to analyze a CSV file and count survivors."}}
+{"step": "planner", "input": "Время работы", "output": 0.3144359588623047}
+{"step": "data", "input": "Время работы", "output": 3.266201972961426}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 128, "output_tokens": 46, "total_tokens": 174}}
+{"step": "llm", "input": "Время работы", "output": 0.46069836616516113}
+{"step": "planner", "input": "у тебя есть файл titanic.csv. сколько всего классов билетов ?", "output": {"route": "DATA", "confidence": 1.0, "reasoning": "User asks about number of ticket classes in Titanic dataset – requires data analysis."}}
+{"step": "planner", "input": "Время работы", "output": 0.6033535003662109}
+{"step": "data", "input": "Время работы", "output": 1.1889045238494873}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 129, "output_tokens": 20, "total_tokens": 149}}
+{"step": "llm", "input": "Время работы", "output": 0.23885774612426758}
+{"step": "planner", "input": "ты знаешь что такое ум?", "output": {"route": "DEFAULT", "confidence": 0.8, "reasoning": "Вопрос относится к общей теме философии/психологии и не содержит ключевых слов для специальных источников."}}
+{"step": "planner", "input": "Время работы", "output": 0.4259963035583496}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 98, "output_tokens": 57, "total_tokens": 155}}
+{"step": "llm", "input": "Время работы", "output": 0.5311660766601562}
+{"step": "planner", "input": "теория эволиции - правда или ложь?", "output": {"route": "DEFAULT", "confidence": 0.8, "reasoning": "The user asks a general question about the theory of evolution; no specific source needed."}}
+{"step": "planner", "input": "Время работы", "output": 0.35476016998291016}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 103, "output_tokens": 75, "total_tokens": 178}}
+{"step": "llm", "input": "Время работы", "output": 0.6829066276550293}
+{"step": "planner", "input": "сколько тебе лет?", "output": {"route": "DEFAULT", "confidence": 0.9, "reasoning": "The user asks a general question about age."}}
+{"step": "planner", "input": "Время работы", "output": 0.27619290351867676}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 96, "output_tokens": 25, "total_tokens": 121}}
+{"step": "llm", "input": "Время работы", "output": 0.2595522403717041}
+{"step": "planner", "input": "ты терминатор?", "output": {"route": "DEFAULT", "confidence": 0.8, "reasoning": "The user asks a general question about identity; no special tool needed."}}
+{"step": "planner", "input": "Время работы", "output": 0.31435179710388184}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 95, "output_tokens": 22, "total_tokens": 117}}
+{"step": "llm", "input": "Время работы", "output": 0.22759723663330078}
+{"step": "planner", "input": "что такое чат бот", "output": {"route": "DEFAULT", "confidence": 0.9, "reasoning": "The user asks a general question about what a chatbot is; no special tool needed."}}
+{"step": "planner", "input": "Время работы", "output": 0.34473395347595215}
+{"step": "llm", "input": "Usage_metadata", "output": {"input_tokens": 95, "output_tokens": 50, "total_tokens": 145}}
+{"step": "llm", "input": "Время работы", "output": 0.47174501419067383}
