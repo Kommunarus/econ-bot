@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>LLM Chat</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width:50%;
+      margin:50px auto;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+    #chat {
+      border: 1px solid #ccc;
+      padding:15px;
+      min-height:400px;
+      background: white;
+      border-radius: 8px;
+      overflow-y: auto;
+      max-height: 500px;
+    }
+    .user {
+      font-weight: bold;
+      color: #2563eb;
+      margin: 10px 0;
+    }
+    .bot {
+      margin: 10px 0;
+      padding: 10px;
+      background: #f1f5f9;
+      border-radius: 6px;
+    }
+    .input-area {
+      margin-top: 15px;
+      display: flex;
+      gap: 10px;
+    }
+    #question {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+    button {
+      padding: 10px 20px;
+      background: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    button:hover {
+      background: #2563eb;
+    }
+    button:disabled {
+      background: #94a3b8;
+      cursor: not-allowed;
+    }
+    .loading {
+      color: #64748b;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <h1>🤖 LLM Chat Assistant</h1>
+  <div id="chat"></div>
+  <div class="input-area">
+    <input type="text" id="question" placeholder="Введите сообщение...">
+    <button onclick="send()" id="sendBtn">Отправить</button>
+  </div>
+
+<script>
+let session_id = localStorage.getItem('session_id');
+if (!session_id) {
+  session_id = 'sess_' + Math.random().toString(36).substring(2, 10);
+  localStorage.setItem('session_id', session_id);
+}
+
+async function send() {
+  let question = document.getElementById("question").value.trim();
+    if(!question) return;
+
+  let chatDiv = document.getElementById("chat");
+  let btn = document.getElementById("sendBtn");
+
+  // Очищаем поле ввода
+  document.getElementById("question").value = "";
+
+  // Добавляем вопрос пользователя
+  chatDiv.innerHTML += "<p class='user'>Вы: " + escapeHtml(question) + "</p>";
+
+  // Показываем индикатор загрузки
+  let loadingId = "loading_" + Date.now();
+  chatDiv.innerHTML += "<p class='loading' id='" + loadingId + "'>Думаю...</p>";
+  chatDiv.scrollTop = chatDiv.scrollHeight;
+
+  // Блокируем кнопку
+  btn.disabled = true;
+
+  try {
+    // Отправляем запрос (относительный URL!)
+    let response = await fetch('/ask', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({question: question, session_id: session_id})
+    });
+
+    // Убираем индикатор загрузки
+    document.getElementById(loadingId).remove();
+
+        if(response.ok) {
+      let data = await response.json();
+      let answer = data.answer || "Нет ответа";
+      chatDiv.innerHTML += "<p class='bot'>🤖 Ассистент: " + marked.parse(answer) + "</p>";
+    } else {
+      let errorText = await response.text();
+      chatDiv.innerHTML += "<p class='bot' style='color: red;'>❌ Ошибка: " + response.status + " - " + errorText + "</p>";
+    }
+    } catch(error) {
+    document.getElementById(loadingId).remove();
+    chatDiv.innerHTML += "<p class='bot' style='color: red;'>❌ Ошибка сети: " + error.message + "</p>";
+  } finally {
+    // Разблокируем кнопку
+    btn.disabled = false;
+    chatDiv.scrollTop = chatDiv.scrollHeight;
+  }
+}
+
+// Защита от XSS
+function escapeHtml(text) {
+  let div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
+}
+
+// Enter для отправки
+document.getElementById("question").addEventListener("keypress", function(e) {
+    if(e.key === "Enter" && !e.shiftKey) {
+    e.preventDefault();
+    send();
+  }
+});
+</script>
+</body>
+</html>
